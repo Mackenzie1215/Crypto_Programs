@@ -7,8 +7,8 @@ import time
 from coinbase.wallet.client import Client
 from datetime import datetime
 
-coinbase_API_key = 'jAvk4kqLWsfUAw0e'
-coinbase_API_secret = 'qceTt2mRhFzXCnel61AukjWiFSLYPDuo'
+coinbase_API_key = 'Your key'
+coinbase_API_secret = 'your api'
 client = Client(coinbase_API_key, coinbase_API_secret)
 
 def Get_Price(Code):
